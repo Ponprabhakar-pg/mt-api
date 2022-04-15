@@ -30,7 +30,7 @@ namespace cfc
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Chennai Freelancers Club API",
+                    Title = "Makers Tribe API",
                     Version = "v1"
                 });
             });
@@ -47,7 +47,7 @@ namespace cfc
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Chennai Freelancers Club API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Makers Tribe API V1");
             });
 
             app.UseRouting();
